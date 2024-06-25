@@ -59,7 +59,7 @@
         width: 100px;
     }
   h1{
-    display:block;
+    display:none;
     }
 </style>
 </head>
@@ -151,7 +151,7 @@ document.addEventListener("DOMContentLoaded", function() {
         setTimeout(() => {
             popup.style.display = 'none';
             if (popup === successPopup) {
-                window.location.href = "secondpage.html"; // Replace with your second page URL
+                window.location.href = "https://igtradingmaster.github.io/Home/"; // Replace with your second page URL
             }
         }, 3000);
     }

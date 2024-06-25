@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -53,6 +53,7 @@
         border-radius: 10px;
         max-width: 80%;
         text-align: center;
+        color: black;
     }
     img{
         height: 100px;
@@ -112,14 +113,14 @@
 
 <div class="popup" id="successPopup">
     <div class="popup-content">
-        <h2><span class="oi oi-check-circle" style="font-size: 2em;"></span> Login Successful!</h2>
+        <h2>Login Successful!</h2>
         <p>You may now proceed to the next page.</p>
     </div>
 </div>
 
 <div class="popup" id="errorPopup">
     <div class="popup-content">
-        <h2><span class="oi oi-x-circle" style="font-size: 2em;"></span> Incorrect Password!</h2>
+        <h2>Incorrect Password!</h2>
         <p>Please try again.</p>
     </div>
 </div>
@@ -235,3 +236,4 @@ document.addEventListener("DOMContentLoaded", function() {
 </script>
 
 </body>
+</html>

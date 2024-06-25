@@ -66,11 +66,6 @@
 </head>
 <body>
 
-<div class="container text-center splash-screen active">
-    <img src="https://cdn.create.vista.com/api/media/small/411026842/stock-vector-logo-design-white-letter-letter-logo-design-initial-letter-linked">
-    <h2>VB APP</h2>
-    <p>Loading...</p>
-</div>
 
 <div class="container text-center password-input">
     <h2>Create Password</h2>
@@ -154,7 +149,7 @@ document.addEventListener("DOMContentLoaded", function() {
             if (popup === successPopup) {
                 window.location.href = "secondpage.html"; // Replace with your second page URL
             }
-        }, 3000);
+        }, 5000);
     }
 
     setTimeout(() => {
@@ -164,9 +159,6 @@ document.addEventListener("DOMContentLoaded", function() {
         } else {
             showSection(passwordInputSection);
         }
-        splashScreen.style.display = 'none';
-    }, 3000); // Splash screen delay
-
     function clearPasswordInputs() {
         passwordInput.value = "";
         confirmPasswordInput.value = "";
@@ -236,4 +228,3 @@ document.addEventListener("DOMContentLoaded", function() {
 </script>
 
 </body>
-</html>
